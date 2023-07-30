@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url() ;
+
+}
+
+header {
+
+    background-color: #d76e0c;
+    padding: 20px;
+    text-align: center;
+    padding-left:7.50% ;
+    position:relative;
+   
+}
+header > img{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top: 2.5px; 
+    right:5px;
+    padding-top: 0.6% ;
+    padding-right: 55.0%;
+}
+
+button {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 70px;
+    background-color: yellow;
+    color: black;
+}
+button a {
+    color: black;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav li {
+    margin: 0 15px; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color:#d76e0c;
+}
+
+section {
+    padding: 3px;
+    text-align: center;
+}
+
+section h3 {
+    margin-bottom: 10px;
+    background-color:#d76e0c; 
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px; 
+    margin: 20px auto;
+}
+
+.pizza-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1020px; 
+    margin: 0 auto; 
+    flex-wrap: nowrap;     
+}
+
+.pizza-item {
+    flex: 0 0 10%; 
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pizza-item img {
+    width: 70%; 
+    height: 70%; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+.price {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+button :hover{
+    color:#ffffff;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Ordering Form</title>
+    <link rel="stylesheet" href="./ordernowcss/styles.css">
+</head>
+
+<body>
+    <header id="logo">
+        <h1> Pizza Poppers </h1>
+        <img src="./img/logo.png" alt="logo">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">Menu</a></li>
+            <li><a href="./index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--navigation links-->
+    <form class="pizza-form">
+        <h2>Pizza Ordering Form</h2>
+
+        <label for="name">Name:
+        <input type="text"  id="name" name="name" required></label>
+
+        <label for="address">Address:
+        <input type="text" id="address" name="address" required></label>
+
+        <label for="email">Email:
+        <input type="email" id="email" name="email" required></label>
+
+        <label for="contact">Contact Number:
+        <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required></label>
+        
+        <div class="pickup-delivery">
+            <label for="pickup">Pick Up</label>
+            <input type="radio" id="pickup" name="delivery-option" value="pickup">
+            <label for="home">Home Delivery</label>
+            <input type="radio" id="home" name="delivery-option" value="home">
+        </div>
+        
+        
+        <h2>ABOUT THE TOPINGS</h2>
+        
+        <label for="ingredients">Choose Ingredients:</label>
+        <div class="ingredient-list">
+            <input type="checkbox"  name="ingredients" value="tomato">
+            <label for="tomato">Tomato</label>
+
+            <input type="checkbox"  name="ingredients" value="mushroom">
+            <label for="mushroom">Mushroom</label>
+
+            <input type="checkbox" name="ingredients" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+
+            <input type="checkbox"  name="ingredients" value="olive">
+            <label for="Olive">Olive</label>
+
+            <input type="checkbox"  name="ingredients" value="cheese">
+            <label for="Cheese">Cheese</label>
+
+            <input type="checkbox"  name="ingredients" value="basil">
+            <label for="Basil">Basil</label>
+        
+         <a href="./index.html">
+        <input type="submit" value="Order Now">
+        </a>
+    </form>
+</body>
+</html>
